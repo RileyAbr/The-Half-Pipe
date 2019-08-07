@@ -1,0 +1,81 @@
+/*
+ Theme Name:   Gute Child
+ Theme URI:    http://comweb.cs.ndsu.nodak.edu/~rilabrah/comm260/wordpress/
+ Description:  Gute Child Theme
+ Author:       Riley Abrahamson
+ Author URI:   http://comweb.cs.ndsu.nodak.edu/~rilabrah/comm260/wordpress/
+ Template:     gute
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  gute-child
+*/
+
+body {
+    background-color: #fffafb;
+    background-image: url("img/concrete-wall-2.png");
+}
+
+#content {
+    min-height: 90vh;
+}
+
+#masthead {
+    background-color: #1e519c !important;
+
+    background-color: #ff3b3e !important;
+    background-image: linear-gradient(90deg, #ff3b3e 13%, #ff581b 92%) !important;
+
+}
+
+.widget-title {
+    border-radius: 20px;
+}
+
+section.widget.sidebar h2 {
+    border: 2px groove #ff3b3e;
+}
+
+.search-submit {
+    border-radius: 20px;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.wp-post-image {
+    padding: 0 0px 5px;
+}
+
+.card-img-set{
+    padding-left: 0px;
+}
+
+a:hover {
+    color: #ff3b3e;
+}
+
+.nav-link:hover {
+    color:#212529;
+}
+
+.header-search {
+    width: 2rem;
+}
+
+.search-icon:hover {
+    color: #212529;
+    cursor: pointer;
+}
+
+#cookie-notice .cn-button {
+    background-color: #ff3b3e !important;
+    background-image: linear-gradient(90deg, #ff3b3e 13%, #ff581b 92%) !important;
+}
+
+.cn-button.bootstrap:hover {
+    color: none;
+    opacity: 0.8;
+}
